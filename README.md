@@ -21,31 +21,23 @@ Jarvis is a personal AI voice assistant that allows users to control their lapto
 1. **Clone the Repository:**
    ```sh
    git clone https://github.com/Koushik-http/Voice-Assistant.git
-   cd Voice-Assistant
    ```
 2. **Install Dependencies:**
    ```sh
    pip install -r requirements.txt
    ```
-3. **Set Up API Keys:**
-   - Obtain API keys from [OpenAI](https://openai.com/) and [Groq](https://groq.com/).
-   - Store them in a `.env` file:
-     ```env
-     OPENAI_API_KEY=your_openai_key_here
-     GROQ_API_KEY=your_groq_key_here
-     ```
-4. **Run the Assistant:**
+
+3. **Run the Assistant:**
    ```sh
-   python jarvis.py
+   python Jarvis_main.py
    ```
 
 ## Usage
 - Speak the command after activating the assistant.
 - Examples:
-  - "Open Chrome"
-  - "What is the weather today?"
-  - "Play music"
-  - "Tell me a joke"
+  - "ACTIVATE CHAT MODE" - FOR CHATTING PURPOSE
+  - "PLAY A MUSIC IN YOUTUBE"
+  - "OPEN NOTE PAD"
 
 ## Future Enhancements
 - 🌍 Multi-language support
