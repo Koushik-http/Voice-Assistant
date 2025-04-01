@@ -14,6 +14,7 @@ import groq  # Install the Groq API client: pip install groq
 import threading
 from jarvis_gui import start_gui
 
+
 # Start the GUI in a separate thread
 gui_thread = threading.Thread(target=start_gui)
 gui_thread.daemon = True  # Close the GUI when the main program exits
